@@ -30,4 +30,4 @@ Here's some patterns that can be made on the board.
 ![patterms](https://pi.math.cornell.edu/~lipa/mec/4life2.png)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://choosealicense.com/licenses/mit/).
