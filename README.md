@@ -25,7 +25,9 @@ There are 4 rules in the Game Of Life:
 * Any live cell with more than three live neighbours dies, as if by overpopulation.
 * Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
     
+Here's some patterns that can be made on the board.
 
+![patterms](https://pi.math.cornell.edu/~lipa/mec/4life2.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
