@@ -46,7 +46,8 @@ public class GameManager : MonoBehaviour
         //Restards
         if(Input.GetKeyDown(KeyCode.Backspace)) Restart();
 
-        if(Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.Alpha1)) SpawnHere();
+        if(Input.GetKey(KeyCode.LeftShift) &&
+        Input.GetKeyDown(KeyCode.Alpha1)) SpawnHere();
 
         UpdateUI();
     }
@@ -61,6 +62,7 @@ public class GameManager : MonoBehaviour
                 cell.transform.parent = GameObject.Find("Grid").transform;
                 cell.gameObject.name = x + " " + y; 
                 grid[x, y] = cell.GetComponent<Cell>();
+                grid[x, y].ActivateState();
             }
         }
     }

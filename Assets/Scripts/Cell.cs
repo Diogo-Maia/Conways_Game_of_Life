@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Cell : MonoBehaviour
@@ -17,10 +15,8 @@ public class Cell : MonoBehaviour
     }
 
     private void ChangeImage(){
-        if(isDead)
-            GetComponent<SpriteRenderer>().sprite = dead;
-        else
-            GetComponent<SpriteRenderer>().sprite = alive;
+        if(isDead) GetComponent<SpriteRenderer>().sprite = dead;
+        else GetComponent<SpriteRenderer>().sprite = alive;
     }
 
     public void OnClick()

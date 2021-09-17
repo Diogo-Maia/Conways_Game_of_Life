@@ -16,7 +16,7 @@ You can also spawn certain patterns with quick shortcuts:
 
 ## What is Game of Life
 
-The game of life is a [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) created by [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) and is consisted in a 2D grid composed with cells that can, based on a few rules, live, die or multiply. Throughout the game the cells can form multiple patterns.
+The game of life is a [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) created by [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) and it consists in a 2D grid composed with cells that can, based on a few rules, live, die or multiply. Throughout the game the cells can form multiple patterns.
 
 There are 4 rules in the Game Of Life:
 
